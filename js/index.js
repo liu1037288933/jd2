@@ -23,7 +23,7 @@ var search = function(){
             var op = top/height * 0.85;
             search.style.background  = "rgba(201,21,35,"+op+")";
         }
-    };·
+    };
 };
 /*秒杀倒计时*/
 var secondKill = function(){
