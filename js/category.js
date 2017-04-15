@@ -64,7 +64,7 @@ function initLeft(){
             childDom.style.webkitTransform = "translateY("+(currY - moveY)+"px)";
         }
     },false);
-    c
+  
     hildDom.addEventListener('touchcancel',function(e){
         alert(0);
         //滑动结束之后记录下当前的translateY的值
