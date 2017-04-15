@@ -65,7 +65,7 @@ function initLeft(){
         }
     },false);
   
-    hildDom.addEventListener('touchcancel',function(e){
+    childDom.addEventListener('touchcancel',function(e){
         alert(0);
         //滑动结束之后记录下当前的translateY的值
         if((currY - moveY) <= 0 && (currY - moveY) >= -(childH - parentH)){
